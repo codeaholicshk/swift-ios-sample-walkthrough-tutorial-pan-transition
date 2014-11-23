@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		875231E64B277FD1DA0C6366 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 483791419AA3790E73075125 /* libPods.a */; };
+		9A05D6FF1A204A0100755918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05D6FE1A204A0100755918 /* AppDelegate.swift */; };
+		9A05D7011A204A0100755918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05D7001A204A0100755918 /* ViewController.swift */; };
+		9A05D7041A204A0100755918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A05D7021A204A0100755918 /* Main.storyboard */; };
+		9A05D7061A204A0100755918 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A05D7051A204A0100755918 /* Images.xcassets */; };
+		9A05D7091A204A0100755918 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A05D7071A204A0100755918 /* LaunchScreen.xib */; };
+		9A05D7151A204A0100755918 /* Doc2YourDoorHkDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05D7141A204A0100755918 /* Doc2YourDoorHkDoctorTests.swift */; };
+		9A0686221A205B2200112BE0 /* WalkthroughPageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0686211A205B2200112BE0 /* WalkthroughPageContentViewController.swift */; };
+		9A06862C1A21940D00112BE0 /* blur_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0686291A21940D00112BE0 /* blur_01.png */; };
+		9A06862D1A21940D00112BE0 /* blur_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A06862A1A21940D00112BE0 /* blur_02.png */; };
+		9A06862E1A21940D00112BE0 /* blur_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A06862B1A21940D00112BE0 /* blur_03.png */; };
+		9A0686301A219B9900112BE0 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A06862F1A219B9900112BE0 /* keys.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A05D70F1A204A0100755918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A05D6F11A204A0100755918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A05D6F81A204A0100755918;
+			remoteInfo = Doc2YourDoorHkDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483791419AA3790E73075125 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A05D6F91A204A0100755918 /* Doc2YourDoorHkDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doc2YourDoorHkDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A05D6FD1A204A0100755918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A05D6FE1A204A0100755918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A05D7001A204A0100755918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A05D7031A204A0100755918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A05D7051A204A0100755918 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A05D7081A204A0100755918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A05D70E1A204A0100755918 /* Doc2YourDoorHkDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Doc2YourDoorHkDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A05D7131A204A0100755918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A05D7141A204A0100755918 /* Doc2YourDoorHkDoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc2YourDoorHkDoctorTests.swift; sourceTree = "<group>"; };
+		9A0686211A205B2200112BE0 /* WalkthroughPageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughPageContentViewController.swift; sourceTree = "<group>"; };
+		9A0686291A21940D00112BE0 /* blur_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_01.png; sourceTree = "<group>"; };
+		9A06862A1A21940D00112BE0 /* blur_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_02.png; sourceTree = "<group>"; };
+		9A06862B1A21940D00112BE0 /* blur_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_03.png; sourceTree = "<group>"; };
+		9A06862F1A219B9900112BE0 /* keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		C92517C4CCA96D9BF29F3E44 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EDD1C092FBC3DC3090E4B0C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A05D6F61A204A0100755918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875231E64B277FD1DA0C6366 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A05D70B1A204A0100755918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A73E07E38974B88B6DFB3C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDD1C092FBC3DC3090E4B0C4 /* Pods.debug.xcconfig */,
+				C92517C4CCA96D9BF29F3E44 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29DEBF311A9CC73E3430DE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				483791419AA3790E73075125 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A05D6F01A204A0100755918 = {
+			isa = PBXGroup;
+			children = (
+				9A05D6FB1A204A0100755918 /* Doc2YourDoorHkDoctor */,
+				9A05D7111A204A0100755918 /* Doc2YourDoorHkDoctorTests */,
+				9A05D6FA1A204A0100755918 /* Products */,
+				1A73E07E38974B88B6DFB3C3 /* Pods */,
+				29DEBF311A9CC73E3430DE2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A05D6FA1A204A0100755918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A05D6F91A204A0100755918 /* Doc2YourDoorHkDoctor.app */,
+				9A05D70E1A204A0100755918 /* Doc2YourDoorHkDoctorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A05D6FB1A204A0100755918 /* Doc2YourDoorHkDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				9A05D6FE1A204A0100755918 /* AppDelegate.swift */,
+				9A05D7001A204A0100755918 /* ViewController.swift */,
+				9A05D7021A204A0100755918 /* Main.storyboard */,
+				9A05D7051A204A0100755918 /* Images.xcassets */,
+				9A05D7071A204A0100755918 /* LaunchScreen.xib */,
+				9A05D6FC1A204A0100755918 /* Supporting Files */,
+				9A0686211A205B2200112BE0 /* WalkthroughPageContentViewController.swift */,
+			);
+			path = Doc2YourDoorHkDoctor;
+			sourceTree = "<group>";
+		};
+		9A05D6FC1A204A0100755918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0686291A21940D00112BE0 /* blur_01.png */,
+				9A06862A1A21940D00112BE0 /* blur_02.png */,
+				9A06862B1A21940D00112BE0 /* blur_03.png */,
+				9A05D6FD1A204A0100755918 /* Info.plist */,
+				9A06862F1A219B9900112BE0 /* keys.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A05D7111A204A0100755918 /* Doc2YourDoorHkDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A05D7141A204A0100755918 /* Doc2YourDoorHkDoctorTests.swift */,
+				9A05D7121A204A0100755918 /* Supporting Files */,
+			);
+			path = Doc2YourDoorHkDoctorTests;
+			sourceTree = "<group>";
+		};
+		9A05D7121A204A0100755918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A05D7131A204A0100755918 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A05D6F81A204A0100755918 /* Doc2YourDoorHkDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A05D7181A204A0100755918 /* Build configuration list for PBXNativeTarget "Doc2YourDoorHkDoctor" */;
+			buildPhases = (
+				A88FA397C6760893A705876F /* Check Pods Manifest.lock */,
+				9A05D6F51A204A0100755918 /* Sources */,
+				9A05D6F61A204A0100755918 /* Frameworks */,
+				9A05D6F71A204A0100755918 /* Resources */,
+				D569D9A9611F51D3A72B895D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doc2YourDoorHkDoctor;
+			productName = Doc2YourDoorHkDoctor;
+			productReference = 9A05D6F91A204A0100755918 /* Doc2YourDoorHkDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A05D70D1A204A0100755918 /* Doc2YourDoorHkDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A05D71B1A204A0100755918 /* Build configuration list for PBXNativeTarget "Doc2YourDoorHkDoctorTests" */;
+			buildPhases = (
+				9A05D70A1A204A0100755918 /* Sources */,
+				9A05D70B1A204A0100755918 /* Frameworks */,
+				9A05D70C1A204A0100755918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A05D7101A204A0100755918 /* PBXTargetDependency */,
+			);
+			name = Doc2YourDoorHkDoctorTests;
+			productName = Doc2YourDoorHkDoctorTests;
+			productReference = 9A05D70E1A204A0100755918 /* Doc2YourDoorHkDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A05D6F11A204A0100755918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "42 Labs";
+				TargetAttributes = {
+					9A05D6F81A204A0100755918 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 6BUA8RZ9DE;
+					};
+					9A05D70D1A204A0100755918 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9A05D6F81A204A0100755918;
+					};
+				};
+			};
+			buildConfigurationList = 9A05D6F41A204A0100755918 /* Build configuration list for PBXProject "Doc2YourDoorHkDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A05D6F01A204A0100755918;
+			productRefGroup = 9A05D6FA1A204A0100755918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A05D6F81A204A0100755918 /* Doc2YourDoorHkDoctor */,
+				9A05D70D1A204A0100755918 /* Doc2YourDoorHkDoctorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A05D6F71A204A0100755918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0686301A219B9900112BE0 /* keys.plist in Resources */,
+				9A05D7041A204A0100755918 /* Main.storyboard in Resources */,
+				9A06862E1A21940D00112BE0 /* blur_03.png in Resources */,
+				9A06862D1A21940D00112BE0 /* blur_02.png in Resources */,
+				9A05D7091A204A0100755918 /* LaunchScreen.xib in Resources */,
+				9A05D7061A204A0100755918 /* Images.xcassets in Resources */,
+				9A06862C1A21940D00112BE0 /* blur_01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A05D70C1A204A0100755918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A88FA397C6760893A705876F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D569D9A9611F51D3A72B895D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A05D6F51A204A0100755918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0686221A205B2200112BE0 /* WalkthroughPageContentViewController.swift in Sources */,
+				9A05D7011A204A0100755918 /* ViewController.swift in Sources */,
+				9A05D6FF1A204A0100755918 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A05D70A1A204A0100755918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A05D7151A204A0100755918 /* Doc2YourDoorHkDoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A05D7101A204A0100755918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A05D6F81A204A0100755918 /* Doc2YourDoorHkDoctor */;
+			targetProxy = 9A05D70F1A204A0100755918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A05D7021A204A0100755918 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A05D7031A204A0100755918 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A05D7071A204A0100755918 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A05D7081A204A0100755918 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A05D7161A204A0100755918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A05D7171A204A0100755918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A05D7191A204A0100755918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD1C092FBC3DC3090E4B0C4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Doc2YourDoorHkDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A05D71A1A204A0100755918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92517C4CCA96D9BF29F3E44 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Doc2YourDoorHkDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A05D71C1A204A0100755918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Doc2YourDoorHkDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doc2YourDoorHkDoctor.app/Doc2YourDoorHkDoctor";
+			};
+			name = Debug;
+		};
+		9A05D71D1A204A0100755918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Doc2YourDoorHkDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doc2YourDoorHkDoctor.app/Doc2YourDoorHkDoctor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A05D6F41A204A0100755918 /* Build configuration list for PBXProject "Doc2YourDoorHkDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A05D7161A204A0100755918 /* Debug */,
+				9A05D7171A204A0100755918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A05D7181A204A0100755918 /* Build configuration list for PBXNativeTarget "Doc2YourDoorHkDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A05D7191A204A0100755918 /* Debug */,
+				9A05D71A1A204A0100755918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A05D71B1A204A0100755918 /* Build configuration list for PBXNativeTarget "Doc2YourDoorHkDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A05D71C1A204A0100755918 /* Debug */,
+				9A05D71D1A204A0100755918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A05D6F11A204A0100755918 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C7FD47E-550C-42E8-8CB6-070620A6BD87</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Doc2YourDoorHkDoctor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AA4A8E994B75D80F16AACED6C53DFE37DCC5B04</key>
+		<string>github.com:codeaholicshk/swift-ios-sample-walkthrough-tutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Doc2YourDoorHkDoctor.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AA4A8E994B75D80F16AACED6C53DFE37DCC5B04</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:codeaholicshk/swift-ios-sample-walkthrough-tutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AA4A8E994B75D80F16AACED6C53DFE37DCC5B04</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AA4A8E994B75D80F16AACED6C53DFE37DCC5B04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Doc2YourDoorHkDoctor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
